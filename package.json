@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-hyperbolts",
+  "desciption": "ESLint sharable config used by HyperBolts projects",
+  "homepage": "https://hyperbolts.io",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperbolts/eslint-config-hyperbolts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hyperbolts/eslint-config-hyperbolts/issues"
+  },
+  "keywords": [
+    "hyperbolts",
+    "eslint"
+  ],
+  "author": {
+    "name": "Pace IT Systems Ltd",
+    "email": "info@paceit.co.uk",
+    "url": "https://www.paceit.co.uk"
+  },
+  "files": [
+    "index.js",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^3.14.1"
+  }
+}
