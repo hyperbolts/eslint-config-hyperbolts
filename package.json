@@ -23,5 +23,12 @@
   "files": [
     "index.js",
     "LICENSE.md"
-  ]
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-hyperbolts": "^1.0.0"
+  }
 }

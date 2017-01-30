@@ -12,7 +12,7 @@ module.exports = {
     extends: 'eslint:all',
 
     // Environments
-    env:     {
+    env: {
         browser: true,
         es6:     true,
         node:    true
@@ -20,13 +20,23 @@ module.exports = {
 
     // Rules
     rules: {
+        'arrow-parens':                ['error', 'as-needed'],
         'brace-style':                 ['error', 'stroustrup'],
+        'consistent-return':           'off',
         'dot-location':                ['error', 'property'],
+        'guard-for-in':                'off',
         'init-declarations':           'off',
         'newline-before-return':       'off',
+        'multiline-ternary':           ['error', 'never'],
+        'no-continue':                 'off',
+        'no-fallthrough':              'off',
         'no-magic-numbers':            'off',
+        'no-param-reassign':           'off',
+        'no-plusplus':                 'off',
         'no-sync':                     'off',
+        'no-ternary':                  'off',
         'no-undefined':                'off',
+        'no-use-before-define':        'off',
         'padded-blocks':               'off',
         'quotes':                      ['error', 'single'],
         'quote-props':                 ['error', 'consistent-as-needed'],
@@ -39,6 +49,23 @@ module.exports = {
             'always',
             {
                 ignoreConsecutiveComments: true
+            }
+        ],
+        'id-length': [
+            'error',
+            {
+                min:        2,
+                exceptions: [
+                    'i',
+                    'j'
+                ]
+            }
+        ],
+        'indent': [
+            'error',
+            4,
+            {
+                SwitchCase: 1
             }
         ],
         'no-multiple-empty-lines': [
