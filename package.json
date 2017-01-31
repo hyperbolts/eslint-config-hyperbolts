@@ -13,7 +13,8 @@
   },
   "keywords": [
     "hyperbolts",
-    "eslint"
+    "eslint",
+    "config"
   ],
   "author": {
     "name": "Pace IT Systems Ltd",
