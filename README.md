@@ -1,7 +1,7 @@
-# HyperBolts Compiler
+# HyperBolts ESLint Config
 **Part of the [HyperBolts](https://hyperbolts.io) family, developed by [Pace IT](https://www.paceit.co.uk). Contact us for bespoke development, consultancy and commercial support options.**
 
-**Looking for a new role working cutting edge tools and technologies? [We're hiring!](https://www.paceit.co.uk/contact/developer-jobs)**
+**Looking for a new role working with cutting edge tools and technologies? [We're hiring!](https://www.paceit.co.uk/contact/developer-jobs)**
 
 ## Summary
 ESLint sharable config used by HyperBolts projects.
