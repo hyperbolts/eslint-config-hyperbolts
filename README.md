@@ -7,7 +7,35 @@
 ESLint sharable config used by HyperBolts projects.
 
 ## Installation
-<http://eslint.org/docs/user-guide/configuring#extending-configuration-files>
+Install the packages globally:
+
+```
+npm install -g eslint eslint-config-hyperbolts
+```
+
+Then create a file named `.eslintrc` at the root of your project, contaning:
+
+```
+{
+  "root": true,
+  "extends": "hyperbolts"
+}
+```
+
+More installation and configuration options can be found in the [ESLint documentation](http://eslint.org/docs/user-guide/configuring).
+
+## Usage
+To lint your whole project:
+
+```
+eslint .
+```
+
+To lint a singular file:
+
+```
+eslint file.js
+```
 
 ## Change Log
 This project adheres to [Semantic Versioning](http://semver.org/). Every release, along with the migration instructions, is documented on the Github [Releases](https://github.com/hyperbolts/compiler/releases) page.
