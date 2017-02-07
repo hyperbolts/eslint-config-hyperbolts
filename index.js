@@ -92,6 +92,12 @@ module.exports = {
                 code: 120
             }
         ],
+        'max-params': [
+            'error',
+            {
+                max: 5
+            }
+        ],
         'no-multi-spaces': [
             'error',
             {
