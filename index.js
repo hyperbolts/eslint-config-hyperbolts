@@ -28,6 +28,7 @@ module.exports = {
         'global-require':              'off',
         'guard-for-in':                'off',
         'init-declarations':           'off',
+        'max-statements':              'off',
         'newline-before-return':       'off',
         'multiline-ternary':           ['error', 'never'],
         'no-continue':                 'off',
@@ -89,12 +90,6 @@ module.exports = {
             'error',
             {
                 code: 120
-            }
-        ],
-        'max-statements': [
-            'error',
-            {
-                max: 20
             }
         ],
         'no-multi-spaces': [
