@@ -2,7 +2,7 @@
   "name": "eslint-config-hyperbolts",
   "description": "ESLint sharable config used by HyperBolts projects",
   "homepage": "https://hyperbolts.io",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "repository": {
     "type": "git",
