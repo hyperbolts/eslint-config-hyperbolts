@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "eslint": "^3.14.1",
-    "eslint-config-hyperbolts": "^1.0.0"
+    "eslint-config-hyperbolts": "^1.0.0",
+    "eslint-plugin-react": "^6.9.0"
   }
 }

@@ -9,7 +9,8 @@
  */
 
 module.exports = {
-    extends: 'eslint:all',
+    plugins: ['react'],
+    extends: ['eslint:all', 'plugin:react/all'],
 
     // Environments
     env: {
@@ -20,33 +21,37 @@ module.exports = {
 
     // Rules
     rules: {
-        'arrow-parens':                ['error', 'as-needed'],
-        'brace-style':                 ['error', 'stroustrup'],
-        'class-methods-use-this':      'off',
-        'consistent-return':           'off',
-        'dot-location':                ['error', 'property'],
-        'global-require':              'off',
-        'guard-for-in':                'off',
-        'init-declarations':           'off',
-        'max-statements':              'off',
-        'newline-before-return':       'off',
-        'multiline-ternary':           ['error', 'never'],
-        'no-continue':                 'off',
-        'no-fallthrough':              'off',
-        'no-loop-func':                'off',
-        'no-magic-numbers':            'off',
-        'no-param-reassign':           'off',
-        'no-plusplus':                 'off',
-        'no-sync':                     'off',
-        'no-ternary':                  'off',
-        'no-undefined':                'off',
-        'no-use-before-define':        'off',
-        'padded-blocks':               'off',
-        'quotes':                      ['error', 'single'],
-        'quote-props':                 ['error', 'consistent-as-needed'],
-        'sort-keys':                   'off',
-        'space-before-function-paren': ['error', 'never'],
-        'strict':                      ['error', 'never'],
+        'arrow-parens':                 ['error', 'as-needed'],
+        'brace-style':                  ['error', 'stroustrup'],
+        'class-methods-use-this':       'off',
+        'consistent-return':            'off',
+        'dot-location':                 ['error', 'property'],
+        'global-require':               'off',
+        'guard-for-in':                 'off',
+        'init-declarations':            'off',
+        'max-statements':               'off',
+        'newline-before-return':        'off',
+        'multiline-ternary':            ['error', 'never'],
+        'no-continue':                  'off',
+        'no-extra-parens':              'off',
+        'no-fallthrough':               'off',
+        'no-loop-func':                 'off',
+        'no-magic-numbers':             'off',
+        'no-param-reassign':            'off',
+        'no-plusplus':                  'off',
+        'no-sync':                      'off',
+        'no-ternary':                   'off',
+        'no-undefined':                 'off',
+        'no-use-before-define':         'off',
+        'padded-blocks':                'off',
+        'quotes':                       ['error', 'single'],
+        'quote-props':                  ['error', 'consistent-as-needed'],
+        'react/forbid-component-props': 'off',
+        'react/jsx-no-literals':        'off',
+        'react/prop-types':             'off',
+        'sort-keys':                    'off',
+        'space-before-function-paren':  ['error', 'never'],
+        'strict':                       ['error', 'never'],
 
         'capitalized-comments': [
             'error',
@@ -123,6 +128,12 @@ module.exports = {
             {
                 initialized:   'never',
                 uninitialized: 'always'
+            }
+        ],
+        'react/jsx-max-props-per-line': [
+            'error',
+            {
+                maximum: 3
             }
         ]
     }
