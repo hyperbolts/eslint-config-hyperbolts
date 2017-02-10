@@ -10,7 +10,7 @@ ESLint sharable config used by HyperBolts projects.
 Install the packages globally:
 
 ```
-npm install -g eslint eslint-config-hyperbolts
+npm install -g eslint eslint-plugin-react eslint-config-hyperbolts
 ```
 
 Create a file named `.eslintrc` at the root of your project:
@@ -20,6 +20,13 @@ Create a file named `.eslintrc` at the root of your project:
   "root": true,
   "extends": "hyperbolts"
 }
+```
+
+Create a file named `.eslintignore` to ingore files and folders:
+
+```
+dist/**
+node_modules/**
 ```
 
 ## Usage
