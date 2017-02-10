@@ -29,6 +29,7 @@ module.exports = {
         'global-require':               'off',
         'guard-for-in':                 'off',
         'init-declarations':            'off',
+        'max-lines':                    'off',
         'max-statements':               'off',
         'newline-before-return':        'off',
         'multiline-ternary':            ['error', 'never'],

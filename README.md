@@ -7,13 +7,13 @@
 ESLint sharable config used by HyperBolts projects.
 
 ## Installation
-Install the packages globally:
+1. Install the packages globally:
 
 ```
 npm install -g eslint eslint-config-hyperbolts
 ```
 
-Then create a file named `.eslintrc` at the root of your project, contaning:
+2. Create a file named `.eslintrc` at the root of your project:
 
 ```
 {
@@ -22,16 +22,14 @@ Then create a file named `.eslintrc` at the root of your project, contaning:
 }
 ```
 
-More installation and configuration options can be found in the [ESLint documentation](http://eslint.org/docs/user-guide/configuring).
-
 ## Usage
-To lint your whole project:
+Lint directory (recursive):
 
 ```
-eslint .
+eslint --ext .js --ext .jsx .
 ```
 
-To lint a singular file:
+Lint a singular file:
 
 ```
 eslint file.js
