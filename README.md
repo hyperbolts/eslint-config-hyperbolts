@@ -7,13 +7,13 @@
 ESLint sharable config used by HyperBolts projects.
 
 ## Installation
-1. Install the packages globally:
+Install the packages globally:
 
 ```
 npm install -g eslint eslint-config-hyperbolts
 ```
 
-2. Create a file named `.eslintrc` at the root of your project:
+Create a file named `.eslintrc` at the root of your project:
 
 ```
 {
