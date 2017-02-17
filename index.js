@@ -49,6 +49,7 @@ module.exports = {
         'quotes':                       ['error', 'single'],
         'quote-props':                  ['error', 'consistent-as-needed'],
         'react/forbid-component-props': 'off',
+        'react/forbid-prop-types':      'off',
         'react/jsx-no-literals':        'off',
         'react/no-set-state':           'off',
         'sort-keys':                    'off',
@@ -138,6 +139,12 @@ module.exports = {
             'error',
             {
                 maximum: 3
+            }
+        ],
+        'react/jsx-no-bind': [
+            'error',
+            {
+                allowBind: true
             }
         ]
     }
