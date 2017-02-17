@@ -53,6 +53,7 @@ module.exports = {
         'react/jsx-no-literals':        'off',
         'react/no-array-index-key':     'off',
         'react/no-set-state':           'off',
+        'react/require-default-props':  'off',
         'sort-keys':                    'off',
         'space-before-function-paren':  ['error', 'never'],
         'strict':                       ['error', 'never'],
