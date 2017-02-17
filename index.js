@@ -25,6 +25,7 @@ module.exports = {
         'brace-style':                  ['error', 'stroustrup'],
         'class-methods-use-this':       'off',
         'consistent-return':            'off',
+        'default-case':                 'off',
         'dot-location':                 ['error', 'property'],
         'global-require':               'off',
         'guard-for-in':                 'off',
@@ -49,7 +50,7 @@ module.exports = {
         'quote-props':                  ['error', 'consistent-as-needed'],
         'react/forbid-component-props': 'off',
         'react/jsx-no-literals':        'off',
-        'react/prop-types':             'off',
+        'react/no-set-state':           'off',
         'sort-keys':                    'off',
         'space-before-function-paren':  ['error', 'never'],
         'strict':                       ['error', 'never'],
@@ -66,8 +67,10 @@ module.exports = {
             {
                 min:        2,
                 exceptions: [
+                    'e',
                     'i',
-                    'j'
+                    'j',
+                    'k'
                 ]
             }
         ],
