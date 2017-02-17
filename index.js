@@ -51,6 +51,7 @@ module.exports = {
         'react/forbid-component-props': 'off',
         'react/forbid-prop-types':      'off',
         'react/jsx-no-literals':        'off',
+        'react/no-array-index-key':     'off',
         'react/no-set-state':           'off',
         'sort-keys':                    'off',
         'space-before-function-paren':  ['error', 'never'],
