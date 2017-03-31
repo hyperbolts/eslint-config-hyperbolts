@@ -73,7 +73,9 @@ module.exports = {
                     'e',
                     'i',
                     'j',
-                    'k'
+                    'k',
+                    'x',
+                    'y'
                 ]
             }
         ],
